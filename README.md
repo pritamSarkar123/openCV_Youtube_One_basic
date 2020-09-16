@@ -28,5 +28,29 @@ so colored vga=640x480x3
     videoRead.py
 ### webcam
     webCamRead.py
+## Chapter 2
 ### basic finctions
     imageBasicFunc.py
+## Chapter 3
+### Resizing 
+    (0,0)-------640-------->X
+    |
+    |  "axis"
+    |
+    480
+    |
+    v-------------------->(640,480)
+    Y
+height==rows width ==cols
+here:-( row no,column no)
+but using numpy we access:-[row no,col no]
+img.shape->(height,width,depth)
+    imageResize.py
+### Cropping
+    imgCrop.py
+
+## Chapter 4
+### Shapes and texts
+    imgShapes.py
+
+

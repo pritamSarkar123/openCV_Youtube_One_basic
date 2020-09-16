@@ -12,7 +12,7 @@ cv2.imshow("Gray image",imgGray)
 #(7,7)<- kernal size
 #0<-sigma
 imgBlur = cv2.GaussianBlur(imgGray,(7,7),0)
-cv2.imshow("Blur image",imgGray)
+cv2.imshow("Blur image",imgBlur)
 
 #edge detectors-> Canny
 #last 2 numbers threshold threshold 

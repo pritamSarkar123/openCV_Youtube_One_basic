@@ -6,7 +6,7 @@ img=cv2.imread("Resources/me.jpg")
 #img=cv2.imread("Resources/me.jpg",-1) <-transparency factor
 #img is an image object
 
-
+#(width,height)
 new_img=cv2.resize(img,(500,500))
 
 cv2.imshow("Output",new_img)
