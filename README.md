@@ -8,7 +8,7 @@ HD=1280x720
 FHD=1920x1080
 4K=3840x2160
 
-black and white:- 
+black and white:-
  1. binary image(2 levels)
  2. 6 levels
  3. 16 levels
@@ -32,7 +32,7 @@ so colored vga=640x480x3
 ### basic finctions
     imageBasicFunc.py
 ## Chapter 3
-### Resizing 
+### Resizing
     (0,0)-------640-------->X
     |
     |  "axis"
@@ -50,7 +50,7 @@ img.shape->(height,width,depth)
     imgCrop.py
 
 ## Chapter 4
-### Shapes and texts
+### Shapes
     imgShapes.py
-
-
+### Texts
+    imgTexts.py
